@@ -1,0 +1,126 @@
+*{
+margin:0;
+padding:0;
+}
+
+.di{
+	display: none;
+}
+
+.news{
+	position: relative;
+	top:30px;
+	height:500px;
+	overflow-y: scroll;
+	overflow-x:hidden; 
+	width: 80%;
+	background-color: lightgrey;
+	border-radius:10px;
+	margin-left: 10%;
+	margin-right: 10%; 
+}
+
+
+
+
+@media only screen and (min-width: 1024px){
+#logo{
+	height: 100px;
+	background-color: purple;
+	position: relative;
+	width: 100%;
+}
+#title{
+	color:white;
+	position:absolute;
+	top:15px;
+	left:89px;
+	font-size:3vw;
+	margin: auto;
+	width: 80%;
+}	
+.footr{
+	position: relative;
+	background-color:#6C006C;
+	top: 50px;
+	height: 50px;
+	width: 100%;
+	overflow: hidden;
+}   		 
+}
+
+
+@media only screen and (min-width: 603px) and (max-width: 1024px)  {
+	#logo{
+	height: 100px;
+	background-color: purple;
+	position: relative;
+	width: 100%;
+}
+#title{
+	color:white;
+	position:absolute;
+	top:15px;
+	left:89px;
+	font-size:3.5vw;
+	margin: auto;
+	width: 80%;
+}	
+.footr{
+	position: relative;
+	background-color:#6C006C;
+	top: 50px;
+	height: 50px;
+	width: 100%;
+	overflow: hidden;
+}   		 
+
+
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 603px){
+	#logo{
+	height: 100px;
+	background-color: purple;
+	position: relative;
+	width: 100%;
+}
+#title{
+	color:white;
+	position:absolute;
+	top:10px;
+	left:89px;
+	font-size:25px;
+	margin: auto;
+	width: 70%;
+}	
+@media screen and (min-width: 415px){
+.footr{
+	position: relative;
+	background-color:#6C006C;
+	top: 50px;
+	height: 50px;
+	width: 100%;
+	overflow: hidden;
+}   		 
+
+}
+@media screen and (max-width: 415px){
+
+.footr{
+	position: relative;
+	background-color:#6C006C;
+	top: 70px;
+	height: 80px;
+	width: 100%;
+	overflow: hidden;
+}   		 
+}
+
+
+}
+
+
+
